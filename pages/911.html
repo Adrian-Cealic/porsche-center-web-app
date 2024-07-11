@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.cdnfonts.com/css/911-porscha" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="/style/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <script src="/node_modules/@porsche-design-system/components-js/index.js"></script>
+  <link rel="stylesheet" href="/style/swiper-bundle.min.css">
+  <link rel="icon" href="/assets/porscheLogosvg.svg" type="image/icon type">
+  <link rel="stylesheet" href="/style/carsCard.css">
+  <link rel="stylesheet" href="/style/718.css">
+  <script type="module" src="/scripts/911.js" defer></script>
+
+  <title>Porsche 718 model overview</title>
+</head>
+
+<body>
+
+  <!-- end slider enu -->
+  <header>
+    <div class="navigation">
+      <div>
+        <button id="open-button"><i class="fa fa-bars"></i> Menu</button>
+      </div>
+      <div>
+        <a class="logo" href="/pages/landingpage.html">Porsche</a>
+      </div>
+      <div>
+        <img src="/assets/porscheLogosvg.svg" alt="">
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="row">
+      <div class="column left">
+
+        <div class="filter">
+          <h1>Alege Porsche-ul tau preferat</h1>
+          <!-- body kit -->
+          <div class="body-kit">
+            <h1>Tipul corpului</h1>
+
+            <div class="block">
+              <input type="checkbox" id="CarreraCheckBox" name="CarreraCheckBox" class="ui-checkbox">
+              <img src="/assets/911/CarreraFilter.webp" alt="">
+              <label for="CarreraCheckBox">Carrera</label>
+            </div>
+
+            <div class="block">
+              <input type="checkbox" id="CarreraCabrioletCheckBox" name="CarreraCabrioletCheckBox" class="ui-checkbox">
+              <img src="/assets/718Models/label2webp.webp" alt="">
+              <label for="CarreraCabrioletCheckBox">Carrera Cabriolet</label>
+            </div>
+
+            <div class="block">
+              <input type="checkbox" id="CarreraGTCheckBox" name="CarreraGTCheckBox" class="ui-checkbox">
+              <img src="/assets/718Models/label3webp.webp" alt="">
+              <label for="CarreraGTCheckBox">Carrera GT</label>
+            </div>
+
+            <div class="block">
+              <input type="checkbox" id="TargaCheckBox" name="TargaCheckBox" class="ui-checkbox">
+              <img src="/assets/718Models/label4webp.webp" alt="">
+              <label for="TargaCheckBox">Targa</label>
+            </div>
+
+            <div class="block">
+                <input type="checkbox" id="TurboCheckBox" name="TurboCheckBox" class="ui-checkbox">
+                <img src="/assets/718Models/label4webp.webp" alt="">
+                <label for="TurboCheckBox">Turbo</label>
+              </div>
+
+              <div class="block">
+                <input type="checkbox" id="TurboCabrioletCheckBox" name="TurboCabrioletCheckBox" class="ui-checkbox">
+                <img src="/assets/718Models/label4webp.webp" alt="">
+                <label for="TurboCabrioletCheckBox">Turbo Cabriolet</label>
+              </div>
+
+          </div>
+          <!-- end body kit filter -->
+
+          <p-divider></p-divider>
+
+
+          <!-- gear type filter -->
+          <div class="gear-type">
+            <h1>Tip transmisie</h1>
+            <div class="block">
+              <input type="checkbox" id="automat" name="automat" class="ui-checkbox">
+              <label for="automat">automat</label>
+            </div>
+
+            <div class="block">
+              <input type="checkbox" id="manual" name="manual" class="ui-checkbox">
+              <label for="manual">Transmisie manuala</label>
+            </div>
+
+          </div>
+          <!-- end gear type filter -->
+
+          <p-divider></p-divider>
+
+          <!-- putere filter-->
+          <p-select name="power" label="Productivitate de la" value="all" required id="horsepowerFilter">
+            <p-select-option value="all">Toate</p-select-option>
+            <p-select-option value="300">300 CP</p-select-option>
+            <p-select-option value="400">400 CP</p-select-option>
+            <p-select-option value="500">500 CP</p-select-option>
+          </p-select>
+          <!-- end putere filter -->
+
+          <p-divider></p-divider>
+
+          <!-- price filter -->
+          <p-select name="price" label="Pret pana la" value="all" required>
+            <p-select-option value="all">Toate</p-select-option>
+            <p-select-option value="60k">60.000,00 €</p-select-option>
+            <p-select-option value="70k">70.000,00 €</p-select-option>
+            <p-select-option value="80k">80.000,00 €</p-select-option>
+            <p-select-option value="90k">90.000,00 €</p-select-option>
+            <p-select-option value="100k">100.000,00 €</p-select-option>
+            <p-select-option value="110k">110.000,00 €</p-select-option>
+            <p-select-option value="120k">120.000,00 €</p-select-option>
+            <p-select-option value="130k">130.000,00 €</p-select-option>
+            <p-select-option value="140k">140.000,00 €</p-select-option>
+            <p-select-option value="150k">150.000,00 €</p-select-option>
+          </p-select>
+          <!-- end price filter -->
+          <p-button>Reset all filters</p-button>
+          <p-button class="close-filter">Show Porsche</p-button>
+        </div>
+      </div>
+
+      <!-- cars -->
+      <div class="column right">
+
+        <p-text-field-wrapper label="Search Porsche">
+          <input type="search" id="search-car" />
+        </p-text-field-wrapper>
+        <p-button id="filter-button" icon="filter" variant="tertiary">Filtru</p-button>
+
+        <h2>Modele Carrera</h2>
+        <div class="cars-container modele_Carrera"></div>
+        <h2>Modele Carrera Cabriolet</h2>
+        <div class="cars-container modele_carreraCabriolet"></div>
+        <h2>Modele Carrera GT</h2>
+        <div class="cars-container modele_CarreraGT"></div>
+        <h2>Modele Targa</h2>
+        <div class="cars-container modele_targa"></div>
+        <h2>Modele Turbo</h2>
+        <div class="cars-container modele_turbo"></div>
+        <h2>Modele Turbo Cabriolet</h2>
+        <div class="cars-container modele_TurboCabriolet"></div>
+      </div>
+    </div>
+  </main>
+
+  <script type="text/javascript">
+    porscheDesignSystem.load();
+  </script>
+</body>
+
+</html>

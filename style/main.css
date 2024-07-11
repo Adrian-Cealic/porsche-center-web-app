@@ -1,0 +1,191 @@
+
+body,* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 90%;
+    font-size: 20px;
+    background: transparent;
+    transition: all .3s linear;
+
+}
+header button:hover{
+    transform: scale(1.1,1.1);
+}
+
+header .logo {
+    text-decoration: none;
+    font-family: '911 Porscha', sans-serif;
+    color: black;
+    font-size: 45px;
+    z-index: 1;
+}
+
+
+/* slider */
+.main {
+    max-width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.wrapper .slide {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.slide .slide1IMG {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.slide .slide2IMG {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.slide .logo911{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    z-index: 99;
+    overflow: hidden;
+}
+.main:hover{
+    .nav-btn{
+        visibility: visible;
+    }
+}
+/* swiper button */
+.nav-btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+
+}
+.nav-btn:hover{
+    background: rgba(255, 255, 255, 0.3);
+}
+.nav-btn::before,
+.nav-btn::after{
+    font-size: 25px;
+    color: #fff;
+}
+.swiper-pagination-bullet{
+    opacity: 1 !important;
+    height: 12px;
+    width: 12px;
+    padding: 5px !important;    
+}
+.swiper-pagination-bullet-active{
+    background: white !important;
+}
+/* main */
+main p-carousel{
+    box-sizing: border-box;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+main p-carousel .car:hover{
+   cursor: pointer;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+   transition: all 0s ease-in-out;
+}
+/* carosuel */
+main p-carousel .car{
+    max-width: 100%;
+    flex-basis: 100%;
+    height: auto;
+    width: auto;
+    margin: auto;
+    font-family: "Porsche Next", sans-serif;
+}
+main p-carousel .car img{
+    border-radius: 10px;
+    object-fit: cover;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+main p-carousel .car h1{
+    font-style: bold;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    margin-top: 15px;
+}
+main p-carousel .car .car-list{
+    max-height: 400px;
+    overflow: hidden;
+    width: 100%;
+    margin:auto
+}
+main p-carousel .car ul{
+    list-style: none;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+    width: 100%;
+}
+main p-carousel .car ul li{
+    margin: 10px 0 10px 0;
+    width: 100%;
+}
+main p-carousel .car .car-footer{
+    margin-top: 15px;
+    gap: 25px;
+    padding: 15px;
+    display: flex;flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+main p-carousel .car .car-footer h2{
+    font-size: 30px;
+    width: 100%;
+}
+
+
+/* footer */
+
+footer {
+background: black;
+color: white;
+font-family: '911 Porscha', sans-serif;
+width: 100%;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+}
+
+@media (max-width: 320px){
+  a.logo{
+    font-size: 20px;
+  }
+  .navigation img{
+    margin-right: 20px;
+  }
+
+}

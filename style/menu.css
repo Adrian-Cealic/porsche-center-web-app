@@ -1,0 +1,109 @@
+.menu-content {
+    padding: 20px;
+    width: 100%;
+    max-width: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #ffffff;
+    pointer-events: auto;
+    transform: translateX(-100%);
+    transition: transform .3s;
+    will-change: transform;
+    contain: paint;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: large;
+    z-index: 999;
+}
+
+.menu-content ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 50px;
+    margin-left: 5%;
+    margin-top: 25%;
+    width: 40%;
+
+    
+}
+
+.menu-content li span {
+    text-transform: uppercase;
+    transition: color .1s;
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+    border-radius: 5px;
+    position: absolute;
+    
+}
+
+.menu-content li:hover {
+    background-color: #ececec;
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.menu-content li{
+    transition: all 0.3s ease-out;
+}
+
+.menu-content.active {
+    transform: translateX(0);
+    transition: all .3s;
+}
+
+.menu-content li i {
+    margin-left: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.menu-content #close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 999;
+    padding: 5px 10px;
+    border: 2px solid white;
+
+}
+
+.content-container {
+    padding: 20px;
+    width: 100%;
+    max-width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #eeeff2;
+    pointer-events: auto;
+    transform: translateX(-100%);
+    transition: transform .3s;
+    will-change: transform;
+    contain: paint;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: large;
+    z-index: -1;
+}
+
+.content-container.active {
+    transform: translateX(0);
+    transition: all .3s;
+}
+
+.blurred-background {
+    filter: blur(10px);
+    transition: filter .3s ease-in-out;
+}

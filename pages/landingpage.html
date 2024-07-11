@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.cdnfonts.com/css/911-porscha" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="/style/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <script defer src="/scripts/SliderMenu.js"></script>
+  <script src="/node_modules/@porsche-design-system/components-js/index.js"></script>
+  <link rel="stylesheet" href="/style/swiper-bundle.min.css">
+  <title>Porsche Center</title>
+  <link rel="icon" href="/assets/porscheLogosvg.svg" type="image/icon type">
+  <script type="module" src="/scripts/main.js"></script>
+  <link rel="stylesheet" href="/style/menu.css">
+  <link rel="stylesheet" href="/style/carsCard.css">
+</head>
+
+<body>
+  <script type="text/javascript">
+    porscheDesignSystem.load();
+  </script>
+
+  <!-- slider menu -->
+  <div class="menu-content">
+    <div id="close-button"><i class="fa-solid fa-xmark"></i></div>
+    <ul>
+      <li><span class="menu-button">Model</span><i class="fa-solid fa-angle-right"></i></li>
+      <li><span class="menu-button">test </span><i class="fa-solid fa-angle-right"></i></li>
+      <li><span class="menu-button">test </span><i class="fa-solid fa-angle-right"></i></li>
+      <li><span class="menu-button">test </span><i class="fa-solid fa-angle-right"></i></li>
+    </ul>
+  </div>
+  <div class="content-container"></div>
+
+  <!-- end slider enu -->
+  <header>
+    <div class="navigation">
+      <div>
+        <button id="open-button"><i class="fa fa-bars"></i> Menu</button>
+      </div>
+      <div>
+        <a class="logo" href="/pages/landingpage.html">Porsche</a>
+      </div>
+      <div>
+        <img src="/assets/porscheLogosvg.svg" alt="">
+      </div>
+    </div>
+
+    <!-- slider -->
+    <section class="main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <a href="/pages/landingpage.html"><img src="/assets/slider1IMG.svg" alt="" class="slide1IMG"></a>
+        </div>
+
+        <div class="slide swiper-slide">
+          <a href="/pages/landingpage.html"><img src="/assets/bro-takes-photos-fKNPmWPtESI-unsplash.jpg" alt=""
+              class="slide2IMG">
+        </div>
+        <div class="slide swiper-slide">
+          <a href="/pages/landingpage.html"><img src="/assets/slider1IMG.svg" alt="" class="slide1IMG"></a>
+          <div class="image-data">
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination pagination"></div>
+    </section>
+    <script src="/scripts/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <!-- end slider -->
+  </header>
+  <main>
+    <!-- model viewer -->
+    <div class="cars-container"></div>
+    <!-- end model viewer -->
+
+    <!-- cars carousel -->
+    <p-carousel heading="Porsche Finder" id="car-carosuel">
+    </p-carousel>
+    <!-- end cars carousel -->
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <div class="footer-container">
+      <span>Porsche</span>
+    </div>
+  </footer>
+</body>
+
+</html>

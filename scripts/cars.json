@@ -1,0 +1,345 @@
+{
+    "modele": {
+      "718": [
+        {
+          
+          "model": "718 Cayman",
+          "an_fabricatie": 2023,
+          "culoare": "rosu",
+          "pret": 80000,
+          "specificatii_motor": {
+            "cilindree": "2.0L",
+            "cuplu_maxim_rpm": "380 Nm @ 1950-4500 rpm",
+            "putere_cp": 300,
+            "putere_kw": 221,
+            "viteza_maxima_motor": "275 km/h",
+            "cuplu_maxim_manual": "317 Nm @ 1900-4500 rpm",
+            "plaja_rpm_cuplu_maxim": "1900-4500 rpm"
+          },
+          "performanta": {
+            "viteza_maxima": "275 km/h",
+            "acceleratie_0_100": "4.9 sec"
+          },
+          "caroserie": {
+            "tip": "Coupe",
+            "lungime": "4389 mm",
+            "latime": "1801 mm",
+            "inaltime": "1295 mm",
+            "greutate": "1405 kg",
+            "capacitate_maxima": "2 persoane"
+          },
+          "capacitate": {
+            "volum_portbagaj": "275 L",
+            "rezervor_combustibil": "64 L"
+          },
+          "consum": "8.5 L/100km"
+        },
+        {
+          "model": "718 Boxster",
+          "an_fabricatie": 2024,
+          "culoare": "galben",
+          "pret": 85000,
+          "specificatii_motor": {
+            "cilindree": "2.5L",
+            "cuplu_maxim_rpm": "420 Nm @ 1900-4500 rpm",
+            "putere_cp": 310,
+            "putere_kw": 228,
+            "viteza_maxima_motor": "275 km/h",
+            "cuplu_maxim_manual": "360 Nm @ 1950-4500 rpm",
+            "plaja_rpm_cuplu_maxim": "1950-4500 rpm"
+          },
+          "performanta": {
+            "viteza_maxima": "275 km/h",
+            "acceleratie_0_100": "5.1 sec"
+          },
+          "caroserie": {
+            "tip": "Cabrio",
+            "lungime": "4379 mm",
+            "latime": "1801 mm",
+            "inaltime": "1281 mm",
+            "greutate": "1380 kg",
+            "capacitate_maxima": "2 persoane"
+          },
+          "capacitate": {
+            "volum_portbagaj": "275 L",
+            "rezervor_combustibil": "64 L"
+          },
+          "consum": "8.7 L/100km"
+        }
+        
+      ],
+      "911": [
+        {
+          
+          "model": "911 Carrera",
+          "an_fabricatie": 2022,
+          "culoare": "albastru",
+          "pret": 150000,
+          "specificatii_motor": {
+            "cilindree": "3.0L",
+            "cuplu_maxim_rpm": "450 Nm @ 1950-5000 rpm",
+            "putere_cp": 385,
+            "putere_kw": 283,
+            "viteza_maxima_motor": "293 km/h",
+            "cuplu_maxim_manual": "450 Nm @ 1950-5000 rpm",
+            "plaja_rpm_cuplu_maxim": "1950-5000 rpm"
+          },
+          "performanta": {
+            "viteza_maxima": "293 km/h",
+            "acceleratie_0_100": "4.2 sec"
+          },
+          "caroserie": {
+            "tip": "Coupe",
+            "lungime": "4519 mm",
+            "latime": "1852 mm",
+            "inaltime": "1303 mm",
+            "greutate": "1495 kg",
+            "capacitate_maxima": "4 persoane"
+          },
+          "capacitate": {
+            "volum_portbagaj": "132 L",
+            "rezervor_combustibil": "67 L"
+          },
+          "consum": "9.5 L/100km"
+        },
+        {
+          "model": "911 Turbo S",
+          "an_fabricatie": 2023,
+          "culoare": "negru",
+          "pret": 250000,
+          "specificatii_motor": {
+            "cilindree": "3.8L",
+            "cuplu_maxim_rpm": "800 Nm @ 2500-4500 rpm",
+            "putere_cp": 650,
+            "putere_kw": 478,
+            "viteza_maxima_motor": "330 km/h",
+            "cuplu_maxim_manual": "750 Nm @ 2500-4500 rpm",
+            "plaja_rpm_cuplu_maxim": "2500-4500 rpm"
+          },
+          "performanta": {
+            "viteza_maxima": "330 km/h",
+            "acceleratie_0_100": "2.7 sec"
+          },
+          "caroserie": {
+            "tip": "Coupe",
+            "lungime": "4506 mm",
+            "latime": "1900 mm",
+            "inaltime": "1297 mm",
+            "greutate": "1640 kg",
+            "capacitate_maxima": "4 persoane"
+          },
+          "capacitate": {
+            "volum_portbagaj": "115 L",
+            "rezervor_combustibil": "67 L"
+          },
+          "consum": "11.3 L/100km"
+        }
+      ],
+      "Taycan": [
+        {
+          
+          "model": "Taycan 4S",
+          "an_fabricatie": 2024,
+          "culoare": "argintiu",
+          "pret": 120000,
+          "specificatii_motor": {
+            "cilindree": "3.0L",
+            "cuplu_maxim_rpm": "520 Nm @ 2000-4500 rpm",
+            "putere_cp": 530,
+            "putere_kw": 390,
+            "viteza_maxima_motor": "250 km/h",
+            "cuplu_maxim_manual": "500 Nm @ 2000-4500 rpm",
+            "plaja_rpm_cuplu_maxim": "2000-4500 rpm"
+          },
+          "performanta": {
+            "viteza_maxima": "250 km/h",
+            "acceleratie_0_100": "4.0 sec"
+          },
+          "caroserie": {
+            "tip": "Coupe",
+            "lungime": "4963 mm",
+            "latime": "1966 mm",
+            "inaltime": "1379 mm",
+            "greutate": "2245 kg",
+            "capacitate_maxima": "5 persoane"
+          },
+          "capacitate": {
+            "volum_portbagaj": "366 L",
+            "putere_kw": "80 kW"
+          },
+          "autonomie": "400 km"
+        },
+        {
+          "model": "Taycan Turbo",
+          "an_fabricatie": 2023,
+          "culoare": "albastru",
+          "pret": 180000,
+          "specificatii_motor": {
+            "cilindree": "3.8L",
+            "cuplu_maxim_rpm": "780 Nm @ 2500-5000 rpm",
+            "putere_cp": 680,
+            "putere_kw": 500,
+            "viteza_maxima_motor": "260 km/h",
+            "cuplu_maxim_manual": "750 Nm @ 2500-5000 rpm",
+            "plaja_rpm_cuplu_maxim": "2500-5000 rpm"
+          },
+          "performanta": {
+            "viteza_maxima": "260 km/h",
+            "acceleratie_0_100": "3.2 sec"
+          },
+          "caroserie": {
+            "tip": "Cabrio",
+            "lungime": "4963 mm",
+            "latime": "1966 mm",
+            "inaltime": "1379 mm",
+            "greutate": "2270 kg",
+            "capacitate_maxima": "5 persoane"
+          },
+          "capacitate": {
+            "volum_portbagaj": "366 L",
+            "putere_kw": "90 kW"
+          },
+          "autonomie": "350 km"
+        }
+      ],
+      "Panamera": [
+        {
+          
+          "model": "Panamera",
+          "an_fabricatie": 2024,
+          "culoare": "argintiu",
+          "pret": 120000,
+          "specificatii_motor": {
+            "cilindree": "3.0L",
+            "cuplu_maxim_rpm": "450 Nm @ 1950-5000 rpm",
+            "putere_cp": 450,
+            "putere_kw": 331,
+            "viteza_maxima_motor": "292 km/h",
+            "cuplu_maxim_manual": "450 Nm @ 1950-5000 rpm",
+            "plaja_rpm_cuplu_maxim": "1950-5000 rpm"
+          },
+          "performanta": {
+            "viteza_maxima": "292 km/h",
+            "acceleratie_0_100": "5.4 sec"
+          },
+          "caroserie": {
+            "tip": "Coupe",
+            "lungime": "5049 mm",
+            "latime": "1937 mm",
+            "inaltime": "1427 mm",
+            "greutate": "1995 kg",
+            "capacitate_maxima": "5 persoane"
+          },
+          "capacitate": {
+            "volum_portbagaj": "405 L",
+            "rezervor_combustibil": "75 L"
+          },
+          "consum": "9.1 L/100km"
+        },
+        {
+          "model": "Panamera Executive",
+          "an_fabricatie": 2023,
+          "culoare": "albastru",
+          "pret": 140000,
+          "specificatii_motor": {
+            "cilindree": "3.0L",
+            "cuplu_maxim_rpm": "450 Nm @ 1950-5000 rpm",
+            "putere_cp": 400,
+            "putere_kw": 294,
+            "viteza_maxima_motor": "280 km/h",
+            "cuplu_maxim_manual": "450 Nm @ 1950-5000 rpm",
+            "plaja_rpm_cuplu_maxim": "1950-5000 rpm"
+          },
+          "performanta": {
+            "viteza_maxima": "280 km/h",
+            "acceleratie_0_100": "5.7 sec"
+          },
+          "caroserie": {
+            "tip": "Coupe",
+            "lungime": "5151 mm",
+            "latime": "1937 mm",
+            "inaltime": "1428 mm",
+            "greutate": "2065 kg",
+            "capacitate_maxima": "5 persoane"
+          },
+          "capacitate": {
+            "volum_portbagaj": "405 L",
+            "rezervor_combustibil": "90 L"
+          },
+          "consum": "9.2 L/100km"
+        }
+      ],
+      "Macan": [
+        {
+          
+          "model": "Macan",
+          "an_fabricatie": 2023,
+          "culoare": "negru",
+          "pret": 70000,
+          "specificatii_motor": {
+            "cilindree": "2.0L",
+            "cuplu_maxim_rpm": "370 Nm @ 1600-4500 rpm",
+            "putere_cp": 245,
+            "putere_kw": 180,
+            "viteza_maxima_motor": "232 km/h",
+            "cuplu_maxim_manual": "380 Nm @ 1500-4500 rpm",
+            "plaja_rpm_cuplu_maxim": "1500-4500 rpm"
+          },
+          "performanta": {
+            "viteza_maxima": "232 km/h",
+            "acceleratie_0_100": "6.2 sec"
+          },
+          "caroserie": {
+            "tip": "SUV",
+            "lungime": "4697 mm",
+            "latime": "1923 mm",
+            "inaltime": "1624 mm",
+            "greutate": "1841 kg",
+            "capacitate_maxima": "5 persoane"
+          },
+          "capacitate": {
+            "volum_portbagaj": "500 L",
+            "rezervor_combustibil": "65 L"
+          },
+          "consum": "8.2 L/100km"
+        }
+      ],
+      "Cayenne": [
+        {
+          
+          "model": "Cayenne",
+          "an_fabricatie": 2024,
+          "culoare": "argintiu",
+          "pret": 90000,
+          "specificatii_motor": {
+            "cilindree": "3.0L",
+            "cuplu_maxim_rpm": "450 Nm @ 1340-5300 rpm",
+            "putere_cp": 340,
+            "putere_kw": 250,
+            "viteza_maxima_motor": "245 km/h",
+            "cuplu_maxim_manual": "430 Nm @ 1340-5300 rpm",
+            "plaja_rpm_cuplu_maxim": "1340-5300 rpm"
+          },
+          "performanta": {
+            "viteza_maxima": "245 km/h",
+            "acceleratie_0_100": "6.2 sec"
+          },
+          "caroserie": {
+            "tip": "SUV",
+            "lungime": "4918 mm",
+            "latime": "1983 mm",
+            "inaltime": "1696 mm",
+            "greutate": "2065 kg",
+            "capacitate_maxima": "5 persoane"
+          },
+          "capacitate": {
+            "volum_portbagaj": "770 L",
+            "rezervor_combustibil": "90 L"
+          },
+          "consum": "9.0 L/100km"
+        }
+      ]
+    
+    }
+  }
+  

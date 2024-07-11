@@ -1,0 +1,36 @@
+.car img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.cars-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 5px;
+  overflow: hidden;
+}
+
+.cars-container p-heading {
+  position: absolute;
+  z-index: 1;
+  transform: translate(0, 120%);
+  margin-top: -80px;
+  color: white;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  width: 75%;
+  margin-left: 10px;
+  padding: 7px;
+}
+@media (max-width:1024px){
+  .cars-container p-heading {
+    margin-top: -95px;
+    transform: translate(0, 150%);
+  }
+  
+}

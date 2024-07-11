@@ -1,0 +1,94 @@
+{
+    "PanameraGTS G1" :{
+    "nume" : "Porsche Panamera GTS (G1 II)",
+    "state" : "Porsche Approved Pre-Owned",
+    "km" : "117.000 km",
+    "owner" : "3 proprietari anteriori",
+    "cutie" : "PDK (automat)",
+    "specs" : "Interior din piele alcantara Gri Carbon Metallic",
+    "img" : "/assets/porscheFinder/panamera.webp",
+    "price" : "44.900 €"
+    },
+    "PanameraGTS G2":{
+        "nume" : "Porsche Panamera GTS (MY22) (G2 II)",
+        "state" : "Porsche Approved Pre-Owned",
+        "km" : "11.500 km",
+        "owner" : "1 proprietar anteriori",
+        "cutie" : "PDK (automat)",
+        "specs" : "Interior din piele crayon din piele neagră cu finisaj neted",
+        "img" : " /assets/porscheFinder/panameraGTS.webp",
+        "price" : "129.900 €" 
+    },
+    "Cayenne S":{
+        "nume" : "Porsche Cayenne S (MY21) (E3)",
+        "state" : "Porsche Approved Pre-Owned",
+        "km" : "14.000 km",
+        "owner" : "1 proprietar anteriori",
+        "cutie" : "PDK (automat)",
+        "specs" : "Interior din piele Club în două tonuri , gri Quarzit,maro trufa metalic si maro Cohiba",
+        "img" : " /assets/porscheFinder/cayenneS.webp",
+        "price" : "109.900 €"
+    },
+    "Taycan 4":{
+        "nume" : "Porsche Taycan 4 Cross Turismo (MY22) (J1)",
+        "state" : "Porsche Approved Pre-Owned",
+        "km" : "8.400 km",
+        "owner" : "1 proprietar anteriori",
+        "cutie" : "PDK (automat)",
+        "specs" : "Bej cafea metalizat maro trufat OLEA Club Interior din piele",
+        "img" : " /assets/porscheFinder/taycanSwebp.webp",
+        "price" : "109.500 €"
+    },
+    "Porsche cayenne hybrid":{
+        "nume" : "Porsche Cayenne E-Hybrid Platinum Edition (MY22) (E3)",
+        "state" : "Porsche Approved Pre-Owned",
+        "km" : "27.000 km",
+        "owner" : "1 proprietar anteriori",
+        "cutie" : "PDK (automat)",
+        "specs" : "Interior din piele bicoloră alb Carrara metalic albastru grafit și creion",
+        "img" : "/assets/porscheFinder/caynneSHibridwebp.webp",
+        "price" : "97.900 €"
+    },
+    "Porsche cayenne coupe":{
+        "nume" : "Porsche Cayenne S Coupé (E3)",
+        "state" : "Porsche Approved Pre-Owned",
+        "km" : "63.000 km",
+        "owner" : "2 proprietari anteriori",
+        "cutie" : "PDK (automat)",
+        "specs" : "Lava Orange Interior din piele neagră cu centrele scaunelor din țesătură clasică cu carouri",
+        "img" : "/assets/porscheFinder/caynne.webp",
+        "price" : "95.000 €"
+    },
+    "Porsche cayenne E3":{
+        "nume" : "Porsche Cayenne (E3)",
+        "state" : "Porsche Approved Pre-Owned",
+        "km" : "67.000 km",
+        "owner" : "1 proprietar anteriori",
+        "cutie" : "PDK (automat)",
+        "specs" : "Interior din piele Club în două nuanțe Jet Black Metallic Truffle Brown și Cohiba Brown",
+        "img" : "/assets/porscheFinder/caynneE3webp.webp",
+        "price" : "68.900 €"
+    },
+    "Porsche cayenne S diesel":{
+        "nume" : "Porsche Cayenne S Diesel (E2)",
+        "state" : "Porsche Approved Pre-Owned",
+        "km" : "132.800 km",
+        "owner" : "2 proprietari anteriori",
+        "cutie" : "PDK (automat)",
+        "specs" : "Interior din piele bicoloră Jet Black Metallic Umber/Light Tartufo, piele cu finisaj neted",
+        "img" : "/assets/porscheFinder/cayenneSDieselwebp.webp",
+        "price" : "41.900 €"
+    },
+    "Porsche cayenne turbo gt":{
+        "nume" : "Porsche Cayenne Turbo GT (MY23) (E3)",
+        "state" : "Porsche Approved Pre-Owned",
+        "km" : "4.000 km",
+        "owner" : "1 proprietar anteriori",
+        "cutie" : "PDK (automat)",
+        "specs" : "Vopsea la eșantion ⊗: ornamente interioare Merlin Metallic GT cu cusături contrastante din Neodyme",
+        "img" : "  /assets/porscheFinder/TurboGTwebp.webp",
+        "price" : "210.000 €"
+    }
+
+    
+}

@@ -1,0 +1,45 @@
+{
+    "modele": {
+      "718": {
+        "nume": "718",
+        "img": "/assets/718.jpeg",
+        "pice": "69.004,53",
+        "url": "/pages/718.html"
+      },
+      "911": {
+        "nume": "911",
+        "img": "/assets/911-carrera_.jpeg",
+        "pice": "129.222,10",
+        "url": "/pages/911.html"
+      },
+      "Taycan": {
+        "nume": "Taycan",
+        "img": "/assets/taycan_.jpeg",
+        "pice": "107.115,00",
+        "url": "/pages/tycan.html"
+
+      },
+      "Panamera": {
+        "nume": "Panamera",
+        "img": "/assets/pannamera.jpg",
+        "pice": "113.581,93",
+        "url": "/pages/panamera.html"
+
+      },
+      "Macan": {
+        "nume": "Macan",
+        "img": "/assets/macan.webp",
+        "pice": "73.259,97",
+        "url": "/pages/macan.html"
+
+      },
+      "Cayenne": {
+        "nume": "Cayenne",
+        "img": "/assets/cayenne.jpg",
+        "pice": "95.955,65",
+        "url": "/pages/cayenne.html"
+
+      }
+    }
+  }
+  

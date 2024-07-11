@@ -1,0 +1,293 @@
+*,
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Porsche Next", sans-serif;
+}
+
+/* checkbox settings 👇 */
+.ui-checkbox {
+    --primary-color: #000000;
+    --secondary-color: #fff;
+    --primary-hover-color: #4096ff;
+    --checkbox-diameter: 20px;
+    --checkbox-border-radius: 5px;
+    --checkbox-border-color: #d9d9d9;
+    --checkbox-border-width: 1px;
+    --checkbox-border-style: solid;
+    --checkmark-size: 1.2;
+    width: var(--checkbox-diameter);
+    height: var(--checkbox-diameter);
+    border-radius: var(--checkbox-border-radius);
+    background: var(--secondary-color);
+    border: var(--checkbox-border-width) var(--checkbox-border-style) var(--checkbox-border-color);
+    transition: background 0.3s, border-color 0.3s;
+    cursor: pointer;
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.ui-checkbox::after,
+.ui-checkbox::before {
+    content: "";
+    position: absolute;
+}
+
+.ui-checkbox::after {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 0 calc(var(--checkbox-diameter) / 2.5) var(--primary-color);
+    border-radius: inherit;
+    opacity: 0;
+    transition: opacity 0.5s ease, box-shadow 0.5s ease;
+}
+
+.ui-checkbox::before {
+    top: 40%;
+    left: 50%;
+    width: 4px;
+    height: 7px;
+    border-right: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    transform: translate(-50%, -50%) rotate(45deg) scale(0);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.ui-checkbox:hover {
+    border-color: var(--primary-hover-color);
+}
+
+.ui-checkbox:checked {
+    background: var(--primary-color);
+    border-color: transparent;
+}
+
+.ui-checkbox:checked::before {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(45deg) scale(var(--checkmark-size));
+}
+
+.ui-checkbox:active:not(:checked)::after {
+    transition: none;
+    box-shadow: none;
+    opacity: 1;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    width: 25%;
+    transition: all 0.3s ease-in-out;
+}
+
+.right {
+    width: 75%;
+}
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+    display: flex;
+}
+
+.left .body-kit h1,
+.left .gear-type h1 {
+    font-size: 20px;
+}
+
+.left .filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    gap: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.body-kit .block {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    max-width: 200px;
+}
+
+.body-kit .block img {
+    max-width: 100px;
+}
+
+.left .body-kit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.body-kit .block input:hover {
+    cursor: pointer;
+}
+
+.gear-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cars-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.car-card,
+.car-card .img-container {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+}
+
+.car-card button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    font-size: large;
+    border: solid 2px black;
+    font-family: "Porsche Next", sans-serif;
+}
+
+.car-card .card-head {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: large;
+}
+.car-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.car-card button:hover {
+    cursor: pointer;
+    background-color: rgb(226, 226, 226);
+    color: black;
+}
+
+/* Filter button and grid styles */
+#filter-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.close-filter {
+    display: none;
+}
+
+
+@media (max-width: 1024px) {
+
+
+    #filter-button {
+        display: block;
+    }
+
+    .left {
+        width: 0;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .left .filter {
+        position: fixed;
+        padding-top: 10px;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        width: 100%;
+        background-color: white;
+        transform: translateX(-100%);
+        gap: 10px;
+        overflow-y: auto;
+        height: 100vh;
+        background-color: #eeeff2;
+
+    }
+
+    .body-kit .block {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        max-width: 200px;
+    }
+
+    .body-kit .block img {
+        max-width: 75px;
+    }
+
+    .left .body-kit {
+        gap: 10px;
+    }
+
+    .gear-type {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .filter .close-filter {
+        display: block;
+    }
+
+    .car-card,
+    .car-card .img-container {
+        width: 100%;
+    }
+    .car-card button,
+    .car-card .card-head {
+        font-size: 2.7vw;
+    }
+
+}
+
+.filter.active {
+    transform: translateX(0);
+    overflow-y: auto;
+    max-height: 100vh;
+}

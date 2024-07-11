@@ -1,0 +1,290 @@
+{
+    "Carrera": [
+        {
+            "nume": "911 Carrera",
+            "pret": "120000",
+            "putere_maxima_CP": 385,
+            "acceleratie_0_100_km_h": 4.2,
+            "viteza_maxima_km_h": 293,
+            "putere_kW": 283,
+            "cuplu_maxim_Nm": 450,
+            "greutate_Kg": 1505,
+            "transmisie": "automata",
+            "img1": "/assets/911/CarreraFilter.webp"
+        },
+        {
+            "nume": "911 Carrera S",
+            "pret": "135000",
+            "putere_maxima_CP": 450,
+            "acceleratie_0_100_km_h": 3.7,
+            "viteza_maxima_km_h": 306,
+            "putere_kW": 331,
+            "cuplu_maxim_Nm": 530,
+            "greutate_Kg": 1515,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/CarreraS1.webp"
+        },
+        {
+            "nume": "911 Carrera GTS",
+            "pret": "155000",
+            "putere_maxima_CP": 480,
+            "acceleratie_0_100_km_h": 3.4,
+            "viteza_maxima_km_h": 311,
+            "putere_kW": 353,
+            "cuplu_maxim_Nm": 570,
+            "greutate_Kg": 1520,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/CarreraGTS1.webp"
+        },
+        {
+            "nume": "911 Carrera 4",
+            "pret": "125000",
+            "putere_maxima_CP": 385,
+            "acceleratie_0_100_km_h": 4.0,
+            "viteza_maxima_km_h": 291,
+            "putere_kW": 283,
+            "cuplu_maxim_Nm": 450,
+            "greutate_Kg": 1540,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/Carrera41.webp"
+        },
+        {
+            "nume": "911 Carrera 4S",
+            "pret": "140000",
+            "putere_maxima_CP": 450,
+            "acceleratie_0_100_km_h": 3.6,
+            "viteza_maxima_km_h": 306,
+            "putere_kW": 331,
+            "cuplu_maxim_Nm": 530,
+            "greutate_Kg": 1550,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/Carrera4S1.webp"
+        },
+        {
+            "nume": "911 Carrera 4 GTS",
+            "pret": "160000",
+            "putere_maxima_CP": 480,
+            "acceleratie_0_100_km_h": 3.3,
+            "viteza_maxima_km_h": 310,
+            "putere_kW": 353,
+            "cuplu_maxim_Nm": 570,
+            "greutate_Kg": 1560,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/Carrera4GTS1.webp"
+        }
+    ],
+    "Carrera Cabriolet": [
+        {
+            "nume": "911 Carrera Cabriolet",
+            "pret": "130000",
+            "putere_maxima_CP": 385,
+            "acceleratie_0_100_km_h": 4.4,
+            "viteza_maxima_km_h": 290,
+            "putere_kW": 283,
+            "cuplu_maxim_Nm": 450,
+            "greutate_Kg": 1540,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/CarreraCabriolet1.webp"
+        },
+        {
+            "nume": "911 Carrera S Cabriolet",
+            "pret": "145000",
+            "putere_maxima_CP": 450,
+            "acceleratie_0_100_km_h": 3.9,
+            "viteza_maxima_km_h": 304,
+            "putere_kW": 331,
+            "cuplu_maxim_Nm": 530,
+            "greutate_Kg": 1550,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/CarreraSCabriolet1.webp"
+        },
+        {
+            "nume": "911 Carrera GTS Cabriolet",
+            "pret": "165000",
+            "putere_maxima_CP": 480,
+            "acceleratie_0_100_km_h": 3.5,
+            "viteza_maxima_km_h": 309,
+            "putere_kW": 353,
+            "cuplu_maxim_Nm": 570,
+            "greutate_Kg": 1560,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/CarreraGTSCabriolet1.webp"
+        },
+        {
+            "nume": "911 Carrera 4 Cabriolet",
+            "pret": "135000",
+            "putere_maxima_CP": 385,
+            "acceleratie_0_100_km_h": 4.2,
+            "viteza_maxima_km_h": 290,
+            "putere_kW": 283,
+            "cuplu_maxim_Nm": 450,
+            "greutate_Kg": 1570,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/Carrera4Cabriolet1.webp"
+        },
+        {
+            "nume": "911 Carrera 4S Cabriolet",
+            "pret": "150000",
+            "putere_maxima_CP": 450,
+            "acceleratie_0_100_km_h": 3.8,
+            "viteza_maxima_km_h": 304,
+            "putere_kW": 331,
+            "cuplu_maxim_Nm": 530,
+            "greutate_Kg": 1580,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/Carrera4SCabriolet1.webp"
+        },
+        {
+            "nume": "911 Carrera 4 GTS Cabriolet",
+            "pret": "170000",
+            "putere_maxima_CP": 480,
+            "acceleratie_0_100_km_h": 3.4,
+            "viteza_maxima_km_h": 309,
+            "putere_kW": 353,
+            "cuplu_maxim_Nm": 570,
+            "greutate_Kg": 1590,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/Carrera4GTSCabriolet1.webp"
+        }
+    ],
+    "Targa": [
+        {
+            "nume": "911 Targa 4",
+            "pret": "130000",
+            "putere_maxima_CP": 379,
+            "acceleratie_0_100_km_h": 4.2,
+            "viteza_maxima_km_h": 289,
+            "putere_kW": 280,
+            "cuplu_maxim_Nm": 450,
+            "greutate_Kg": 1610,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/Targa41.webp"
+        },
+        {
+            "nume": "911 Targa 4S",
+            "pret": "145000",
+            "putere_maxima_CP": 443,
+            "acceleratie_0_100_km_h": 3.6,
+            "viteza_maxima_km_h": 304,
+            "putere_kW": 329,
+            "cuplu_maxim_Nm": 530,
+            "greutate_Kg": 1620,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/Targa4S1.webp"
+        },
+        {
+            "nume": "911 Targa 4 GTS",
+            "pret": "160000",
+            "putere_maxima_CP": 473,
+            "acceleratie_0_100_km_h": 3.5,
+            "viteza_maxima_km_h": 309,
+            "putere_kW": 350,
+            "cuplu_maxim_Nm": 570,
+            "greutate_Kg": 1630,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/Targa4GTS1.webp"
+        }
+    ],
+    "Turbo": [
+        {
+            "nume": "911 Turbo",
+            "pret": "200000",
+            "putere_maxima_CP": 572,
+            "acceleratie_0_100_km_h": 2.7,
+            "viteza_maxima_km_h": 320,
+            "putere_kW": 427,
+            "cuplu_maxim_Nm": 750,
+            "greutate_Kg": 1640,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/Turbo1.webp"
+        },
+        {
+            "nume": "911 Turbo S",
+            "pret": "220000",
+            "putere_maxima_CP": 640,
+            "acceleratie_0_100_km_h": 2.6,
+            "viteza_maxima_km_h": 330,
+            "putere_kW": 478,
+            "cuplu_maxim_Nm": 800,
+            "greutate_Kg": 1650,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/TurboS1.webp"
+        }
+    ],
+    "Turbo Cabriolet": [
+        {
+            "nume": "911 Turbo Cabriolet",
+            "pret": "210000",
+            "putere_maxima_CP": 572,
+            "acceleratie_0_100_km_h": 2.8,
+            "viteza_maxima_km_h": 318,
+            "putere_kW": 427,
+            "cuplu_maxim_Nm": 750,
+            "greutate_Kg": 1660,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/TurboCabriolet1.webp"
+        },
+        {
+            "nume": "911 Turbo S Cabriolet",
+            "pret": "230000",
+            "putere_maxima_CP": 640,
+            "acceleratie_0_100_km_h": 2.7,
+            "viteza_maxima_km_h": 328,
+            "putere_kW": 478,
+            "cuplu_maxim_Nm": 800,
+            "greutate_Kg": 1670,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/TurboSCabriolet1.webp"
+        }
+    ],
+    "GT": [
+        {
+            "nume": "911 GT3",
+            "pret": "230000",
+            "putere_maxima_CP": 510,
+            "acceleratie_0_100_km_h": 3.4,
+            "viteza_maxima_km_h": 320,
+            "putere_kW": 375,
+            "cuplu_maxim_Nm": 470,
+            "greutate_Kg": 1435,
+            "transmisie": "manuala",
+            "img1": "/assets/911Models/card_img/GT31.webp"
+        },
+        {
+            "nume": "911 GT3 Touring",
+            "pret": "240000",
+            "putere_maxima_CP": 510,
+            "acceleratie_0_100_km_h": 3.9,
+            "viteza_maxima_km_h": 320,
+            "putere_kW": 375,
+            "cuplu_maxim_Nm": 470,
+            "greutate_Kg": 1430,
+            "transmisie": "manuala",
+            "img1": "/assets/911Models/card_img/GT3Touring1.webp"
+        },
+        {
+            "nume": "911 GT3 RS",
+            "pret": "260000",
+            "putere_maxima_CP": 525,
+            "acceleratie_0_100_km_h": 3.2,
+            "viteza_maxima_km_h": 310,
+            "putere_kW": 386,
+            "cuplu_maxim_Nm": 470,
+            "greutate_Kg": 1420,
+            "transmisie": "manuala",
+            "img1": "/assets/911Models/card_img/GT3RS1.webp"
+        },
+        {
+            "nume": "911 GT2 RS",
+            "pret": "300000",
+            "putere_maxima_CP": 700,
+            "acceleratie_0_100_km_h": 2.7,
+            "viteza_maxima_km_h": 340,
+            "putere_kW": 515,
+            "cuplu_maxim_Nm": 750,
+            "greutate_Kg": 1470,
+            "transmisie": "automata",
+            "img1": "/assets/911Models/card_img/GT2RS1.webp"
+        }
+    ]
+}

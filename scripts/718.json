@@ -1,0 +1,130 @@
+{
+  "Cayman": [
+    {
+      "nume": "718 Cayman",
+      "pret": "100000",
+      "putere_maxima_CP": 300,
+      "acceleratie_0_100_km_h": 4.5,
+      "viteza_maxima_km_h": 280,
+      "putere_kW": 220,
+      "cuplu_maxim_Nm": 380,
+      "greutate_Kg": 1400,
+      "transmisie": "automata",
+      "img1": "/assets/718Models/card_img/cayman.webp"
+    },
+    {
+      "nume": "718 Cayman S",
+      "pret": "120000",
+      "putere_maxima_CP": 350,
+      "acceleratie_0_100_km_h": 4.0,
+      "viteza_maxima_km_h": 300,
+      "putere_kW": 257,
+      "cuplu_maxim_Nm": 420,
+      "greutate_Kg": 1420,
+      "transmisie": "manuala",
+      "img1": "/assets/718Models/card_img/CaymanS1.webp"
+    },
+    {
+      "nume": "718 Cayman Style Edition",
+      "pret": "150000",
+      "putere_maxima_CP": 400,
+      "acceleratie_0_100_km_h": 3.8,
+      "viteza_maxima_km_h": 310,
+      "putere_kW": 294,
+      "cuplu_maxim_Nm": 450,
+      "greutate_Kg": 1440,
+      "transmisie": "manuala",
+      "img1": "/assets/718Models/card_img/cayman_style_ed1webp.webp"
+    },
+    {
+      "nume": "718 Cayman GT4",
+      "pret": "200000",
+      "putere_maxima_CP": 420,
+      "acceleratie_0_100_km_h": 3.5,
+      "viteza_maxima_km_h": 320,
+      "putere_kW": 309,
+      "cuplu_maxim_Nm": 470,
+      "greutate_Kg": 1460,
+      "transmisie": "manuala",
+      "img1": "/assets/718Models/card_img/CaymanGTS4_1.webp"
+    }
+  ],
+  "Boxster": [
+    {
+      "nume": "718 Boxster",
+      "pret": "105000",
+      "putere_maxima_CP": 280,
+      "acceleratie_0_100_km_h": 4.8,
+      "viteza_maxima_km_h": 270,
+      "putere_kW": 206,
+      "cuplu_maxim_Nm": 360,
+      "greutate_Kg": 1380,
+      "transmisie": "automata",
+      "img1": "/assets/718Models/card_img/Boxster1.webp"
+    },
+    {
+      "nume": "718 Boxster S",
+      "pret": "125000",
+      "putere_maxima_CP": 330,
+      "acceleratie_0_100_km_h": 4.3,
+      "viteza_maxima_km_h": 290,
+      "putere_kW": 243,
+      "cuplu_maxim_Nm": 400,
+      "greutate_Kg": 1400,
+      "transmisie": "automata",
+      "img1": "/assets/718Models/card_img/BoxsterS1.webp"
+    },
+    {
+      "nume": "718 Boxster GTS",
+      "pret": "155000",
+      "putere_maxima_CP": 380,
+      "acceleratie_0_100_km_h": 4.0,
+      "viteza_maxima_km_h": 300,
+      "putere_kW": 279,
+      "cuplu_maxim_Nm": 430,
+      "greutate_Kg": 1420,
+      "transmisie": "automata",
+      "img1": "/assets/718Models/card_img/BoxsterGTS4_1.webp"
+    },
+    {
+      "nume": "718 Boxster Style Edition",
+      "pret": "210000",
+      "putere_maxima_CP": 450,
+      "acceleratie_0_100_km_h": 3.6,
+      "viteza_maxima_km_h": 330,
+      "putere_kW": 331,
+      "cuplu_maxim_Nm": 490,
+      "greutate_Kg": 1440,
+      "transmisie": "automata",
+      "img1": "/assets/718Models/card_img/Boxster_SE_1.webp"
+    }
+  ],
+  "Cayman GT": [
+    {
+      "nume": "718 Cayman GT4 RS",
+      "pret": "250000",
+      "putere_maxima_CP": 500,
+      "acceleratie_0_100_km_h": 3.0,
+      "viteza_maxima_km_h": 350,
+      "putere_kW": 368,
+      "cuplu_maxim_Nm": 550,
+      "greutate_Kg": 1480,
+      "transmisie": "automata",
+      "img1": "/assets/718Models/card_img/CaymanGT4RS_1.webp"
+    }
+  ],
+  "Spyder": [
+    {
+      "nume": "718 Boxstser Spyder RS",
+      "pret": "220000",
+      "putere_maxima_CP": 470,
+      "acceleratie_0_100_km_h": 3.4,
+      "viteza_maxima_km_h": 340,
+      "putere_kW": 345,
+      "cuplu_maxim_Nm": 510,
+      "greutate_Kg": 1460,
+      "transmisie": "manuala",
+      "img1": "/assets/718Models/card_img/SpyderRS_1.webp"
+    }
+  ]
+}
